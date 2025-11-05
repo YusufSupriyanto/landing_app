@@ -17,7 +17,7 @@ export default function App() {
         alt=""
         className="absolute inset-0 w-full h-full object-cover -z-10"
         loading="eager"
-        fetchpriority="high"
+        fetchPriority="high"
       />
 
       {/* Banner atas */}
@@ -71,7 +71,7 @@ export default function App() {
                 <img
                   src={b.image}
                   alt={b.name}
-                  className="w-14 h-14 sm:w-28 sm:h-28 object-contain filter brightness-0 invert"
+                  className="w-10 h-10 sm:w-28 sm:h-28 md:w-20 md:h-20 object-contain filter brightness-0 invert"
                   loading="lazy"
                 />
                 <div className="flex flex-col justify-center text-left sm:text-center sm:items-center leading-tight">
