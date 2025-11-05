@@ -86,7 +86,7 @@ export default function App() {
               </button>
 
               {/* Tombol gambar mobile */}
-              <div className="block md:hidden flex justify-end items-center mr-3 sm:mr-4">
+              <div className="block md:hidden flex justify-end items-center mr-5 sm:mr-6 ml-auto">
                 <img
                   src={`${base}Assets/download.svg`}
                   alt="Download"
