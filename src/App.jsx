@@ -1,5 +1,5 @@
 export default function App() {
-  const base = import.meta.env.BASE_URL; // base otomatis: '/landing_app/' di GitHub Pages
+  const base = import.meta.env.BASE_URL; 
 
   const browsers = [
     { name: "GOOGLE CHROME", version: "Version 40+", color: "bg-[#EBBA4A]/25", image: `${base}Assets/chrome.svg` },
